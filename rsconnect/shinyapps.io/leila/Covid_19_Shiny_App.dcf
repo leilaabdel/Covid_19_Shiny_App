@@ -1,0 +1,12 @@
+name: Covid_19_Shiny_App
+title: Covid_19_Shiny_App
+username:
+account: leila
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1997872
+bundleId: 2925811
+url: https://leila.shinyapps.io/Covid_19_Shiny_App/
+when: 1585192623.84946
+asMultiple: FALSE
+asStatic: FALSE
