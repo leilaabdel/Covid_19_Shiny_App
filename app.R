@@ -28,7 +28,7 @@ server <- function(input, output) {
     b <- log(a)/input$dayOfMaxGrowth
     x <- seq(from = 0, to = input$daysSinceMarchFirst, by = 1)
     y <- input$carryingCapacity/(1+ a*exp(-b * x))
-    plot(x,y ,pch=19, cex=.5, main="Number of Reported Cases over Time" , ylab="Reported Cases"
+    plot(x,y ,pch=19, cex=.5, main="Number of Reported U.S. Cases over Time" , ylab="Reported Cases"
          , xlab = "Days since March 1st", type = "b", col="red")
   })
 }
