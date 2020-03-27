@@ -17,6 +17,8 @@ ui <- pageWithSidebar(
   mainPanel(
     plotOutput("linePlot")
   )
+
+
 )
 
 # Define server logic to plot various variables against mpg ----
